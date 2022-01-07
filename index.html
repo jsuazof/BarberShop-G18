@@ -1,12 +1,235 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="author" content="Jorge Suazo">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Barber Shop</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Jorge Suazo" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/main.css" />
+    <title>BarberShop</title>
+  </head>
+  <body>
+    <!--Inicio navbar-->
+    <nav class="navbar navbar-expand-lg bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          ><img
+            class="navbar__img"
+            src="./assets/images/logo.png"
+            alt="logo barbershop"
+          />
+        </a>
+        <button
+          class="navbar-toggler navbar-dark bg-dark"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse navbar__items" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#" aria-current="page">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Trabajos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Horas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  <!--Fin Navbar-->
+  <!-- Inicio Header-->
+    <header>
+      <div>
+        <div class="hero">
+          <img
+            class="hero__img"
+            src="./assets/images/post-image.jpg"
+            alt="corte de pelo"
+          />
+          <img
+            class="hero__img--arrow"
+            src="./assets/images/twotone_keyboard_double_arrow_down_white_24dp.png"
+            alt="arrows down"
+          />
+        </div>
+        <div class="hero__text">
+          <h1 class="container">
+            5 formas de cuidar <br />tu corte de cabello
+          </h1>
+        </div>
+      </div>
+    </header>
+  <!--Fin Header-->
+  <!--Inicio Main-->
+    <main class="main">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <p class="main__text">12 de abril de 2018</p>
+          </div>
+          <div class="col-12">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Suspendisse feugiat nunc quam, eget scelerisque quam semper quis.
+              Mauris maximus blandit lorem, sit amet condimentum eros auctor
+              quis. In ut semper ipsum, nec condimentum est. Phasellus sodales,
+              nunc vitae feugiat consequat, turpis velit euismod mi, eget
+              scelerisque felis odio nec tortor. Ut nibh ex, tincidunt eu
+              faucibus vel, sollicitudin ut velit.
+            </p>
+          </div>
+          <div class="col-12">
+            <p>
+              dapibus turpis massa, nec pellentesque libero porttitor eu. Fusce
+              vel pellentesque augue. Cras finibus elit nec nisl vehicula, in
+              interdum dolor volutpat. Duis arcu odio, aliquet non sapien vitae,
+              scelerisque aliquam lorem. Suspendisse et sem tincidunt, tincidunt
+              odio id, varius enim. Vestibulum faucibus augue id fringilla
+              vulputate. Sed vitae magna eu enim pellentesque laoreet.
+              Pellentesque id molestie eros. Nunc quam nisi, efficitur in
+              scelerisque eu, lacinia vel erat.
+            </p>
+          </div>
+          <div class="col-12">
+            <p>
+              Suspendisse vel lobortis lectus, eu convallis mauris. Praesent id
+              odio imperdiet, tincidunt ex a, aliquam libero. Duis ultricies
+              nisi nulla, eget cursus nibh interdum tempus. Integer sodales
+              tincidunt imperdiet. Aenean ornare at tortor sed facilisis. Nulla
+              gravida turpis ac ullamcorper iaculis. Cras fringilla felis id
+              nibh efficitur ornare. Aenean accumsan orci sit amet semper
+              eleifend.
+            </p>
+          </div>
+          <div class="col-12">
+            <p>
+              Proin quis tortor ante. Cras fermentum urna a felis placerat, eget
+              malesuada ipsum placerat. Fusce scelerisque, leo quis auctor
+              lacinia, mauris justo porta enim, eget dictum nisi sapien eget ex.
+            </p>
+          </div>
+          <div class="col-12">
+            <p>
+              Fusce in eros purus. Fusce volutpat nisi purus, ac vehicula ipsum
+              sollicitudin in. Praesent ultrices semper massa, eu pellentesque
+              purus vehicula non. Praesent tincidunt convallis ipsum, quis
+              convallis metus. Vivamus ac gravida lectus, eget ultricies nunc.
+              Interdum et malesuada fames ac ante ipsum primis in faucibus.
+              Nullam tristique pulvinar est at tristique. Vestibulum non blandit
+              ex. Suspendisse ipsum justo, feugiat eu feugiat et, condimentum
+              sit amet ipsum. Pellentesque eu vulputate dolor. Aliquam pretium
+              arcu nec aliquet varius.
+            </p>
+          </div>
+          <div class="evento col-12 container my-5">
+            <button
+              type="button"
+              class="evento__click mx-2 btn btn-secondary btn-sm"
+            >
+              Compartir
+            </button>
+            <button
+              type="button"
+              class="btn btn-secondary evento__click btn-sm"
+            >
+              Comentar en Twitter
+            </button>
+          </div>
+          <hr class="container" />
+        </div>
+      </div>
+      <section>
+        <div class="container">
+          <div class="row g-0">
+            <div class="profile text-center col-12 col-md-3">
+              <img
+                class="rounded-circle profile__img"
+                src="./assets/images/naomi-thai.png"
+                alt="Naomi Thai"
+              />
+            </div>
+            <div
+              class="d-flex flex-column justify-content-center align-items-center col-12 col-md-3"
+            >
+              <h2>NaomiThai</h2>
+              <br />
+              <a href="">
+                <span>@Naothai</span>
+                <br />
+                <span>depelos.com</span>
+              </a>
+            </div>
+            <div
+              class="d-none d-md-flex justify-content-center align-items-center col-6"
+            >
+              <p>
+                Fusce in eros purus. Fusce volutpat nisi purus, ac vehicula
+                ipsum sollicitudin in. Praesent ultrices semper massa, eu
+                pellentesque purus vehicula non. Praesent tincidunt convallis
+                ipsum, quis convallis metus.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  <!--Fin Main-->
+  <!--Inicio Footer-->
+    <footer class="footer container">
+      <div>
+        <nav aria-label="...">
+          <ul class="pagination justify-content-center">
+            <li class="page-item">
+              <a class="page-link text-dark">Anterior</a>
+            </li>
+            <li class="page-item">
+              <a class="page-link text-dark" href="#">1</a>
+            </li>
+            <li class="page-item active" aria-current="page">
+              <a class="page-link text-dark" href="#">2</a>
+            </li>
+            <li class="page-item">
+              <a class="page-link text-dark" href="#">3</a>
+            </li>
+            <li class="page-item">
+              <a class="page-link text-dark" href="#">Siguiente</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+    <section>
+      <div class="container-fluid logofoo">
+        <img class="logofoo__img" src="./assets/images/logo.png" alt="logo footer">
+      </div>
+    </section>
     
-</body>
+  <!--Fin Footer-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

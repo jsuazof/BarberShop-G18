@@ -1,0 +1,23 @@
+h1{
+    font-family: $playfair;
+    font-weight: $pfbitalic;
+    font-size: 7vw;
+    font-style: italic;
+    color: $white;
+    text-align:center;
+    position: relative;
+    margin-top: -50%;
+}
+h2{
+    font-family: $playfair;
+    font-weight: $pfbitalic;
+    font-size: $x-large;
+    font-style: italic;
+}
+p{
+    font-family: $roboto;
+    font-weight: $rlight;
+    font-size: $medium;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}

@@ -1,0 +1,29 @@
+.main {
+  margin-block-start: 40%;
+  background-color: $white;
+  border: 100 100 100 100;
+
+}
+.main__text {
+  font-family: $playfair;
+  font-weight: $pfregular;
+  font-size: $large;
+  color: $rblack;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.evento__click {
+  cursor: pointer;
+  &:hover {
+    color: $platinum;
+  }
+  &:active {
+    color: $nickel;
+  }
+  .profile__img {
+    height: 100px;
+    &-small {
+      height: 50px;
+    }
+  }
+}
